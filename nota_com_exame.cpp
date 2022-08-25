@@ -29,7 +29,7 @@ int main(void)
 		printf ("\nDigite a nota EXAME \n");
 		scanf ("%f", &EXAME);
 		calc_exame();
-		printf ( "\nA nota MR e %.2f",MR);
+		printf ( "\nA nota MR e %.2f \n",MR);
 	}				        
 	else if(MR>=5.0)
 	{
