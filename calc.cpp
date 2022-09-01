@@ -14,7 +14,8 @@ float p1,
       mex2,
       m1,
       m2,
-      mf;
+      mf,
+      exa;
 int main(void)
 {
     //***************Cálculo de Media M1*****************//
@@ -49,6 +50,16 @@ int main(void)
     else if(mf >= 3.0 && mf < 5.0)
     {
         printf("Aluno em EXAME (RECUPERACAO) \n");
+        printf("Entre com a nota de EXAME: \n");
+        scanf("%f",&exa);
+        if(exa >= 5.0)
+        {
+            printf("APROVADO \n");
+        }
+        else
+        {
+            printf("REPROVADO \n");
+        }
     }
     else if(mf < 3.0)
     {
